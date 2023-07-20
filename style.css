@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Poppins:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container img {
+    height: 429px;
+    width: 431px;
+}
+
+.play-title {
+    font-size: 30px;
+}
+
+.goat {
+    color: rgb(216, 27, 115);
+    font-weight: 1000;
+    font-size: 3.6rem;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.left ul li {
+    list-style: none;
+    padding-top: 10px;
+}
+
+.btn-sign-in {
+    height: 42px;
+    width: 100px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    background-color: rgb(255, 67, 173);
+    color: white;
+    border: 1px solid white;
+    border-radius: 29px;
+}
+
+.btn-rouge {
+    height: 42px;
+    width: 118px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    background-color: rgb(31, 165, 179);
+    color: white;
+    border: 1px solid white;
+    border-radius: 29px;
+    margin-left: 10px;
+}
+
+.btn-sign-rouge {
+    margin-top: 23px;
+
+}
