@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
 * {
     margin: 0;
@@ -60,3 +61,44 @@
     margin-top: 23px;
 
 }
+
+.funny-videos-list {
+    text-align: center;
+}
+
+.funny-part-title {
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 45px;
+}
+.funny-title-color{
+    color: rgb(247, 38, 177);
+}
+.funny-part-description {
+    font-size: 10px;
+}
+
+.video-list {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+
+.video-list img {
+    height: 263px;
+    width: 245px;
+    margin-left: 15px;
+
+}
+.play-button{
+    height: 50px;
+    width: 50px;
+    border: 2px solid rgb(236, 236, 236);
+     border-radius: 50%;
+    position: relative;
+    bottom: 173px;
+    left: 112px;
+}
+
+
