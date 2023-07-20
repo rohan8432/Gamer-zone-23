@@ -29,7 +29,7 @@
 
 }
 
-.left ul li {
+.play-info ul li {
     list-style: none;
     padding-top: 10px;
 }
@@ -101,4 +101,32 @@
     left: 112px;
 }
 
-
+.playing-games-info{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    
+}
+.game-play{
+    font-family: 'Poppins', sans-serif;
+    
+}
+.primary-color{
+    color: rgb(255, 33, 170);
+}
+.game-play-info{
+    margin-top: 215px;
+}
+.fifth-img img{
+    width: 500px;
+    height: 526px;
+}
+.sixth-img{
+    position: relative;
+    bottom: 138px;
+    right: 244px;
+  }
+.sixth-img img{
+    height: 200px;
+    width: 202px;
+}
