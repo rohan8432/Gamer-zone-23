@@ -71,9 +71,11 @@
     font-family: 'Poppins', sans-serif;
     margin-top: 45px;
 }
-.funny-title-color{
+
+.funny-title-color {
     color: rgb(247, 38, 177);
 }
+
 .funny-part-description {
     font-size: 10px;
 }
@@ -91,42 +93,106 @@
     margin-left: 15px;
 
 }
-.play-button{
+
+.play-button {
     height: 50px;
     width: 50px;
     border: 2px solid rgb(236, 236, 236);
-     border-radius: 50%;
+    border-radius: 50%;
     position: relative;
     bottom: 173px;
     left: 112px;
 }
 
-.playing-games-info{
+.playing-games-info {
     display: flex;
     justify-content: space-evenly;
     text-align: center;
-    
+
 }
-.game-play{
+
+.game-play {
     font-family: 'Poppins', sans-serif;
-    
+
 }
-.primary-color{
+
+.primary-color {
     color: rgb(255, 33, 170);
 }
-.game-play-info{
+
+.game-play-info {
     margin-top: 215px;
 }
-.fifth-img img{
+
+.fifth-img img {
     width: 500px;
     height: 526px;
 }
-.sixth-img{
+
+.sixth-img {
     position: relative;
     bottom: 138px;
     right: 244px;
-  }
-.sixth-img img{
+}
+
+.sixth-img img {
     height: 200px;
     width: 202px;
+}
+
+/* .games-feature-list{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+} */
+.first-five-img {
+    display: flex;
+    /* align-items: center; */
+}
+
+.Adventure {
+    text-align: center;
+}
+
+.first-five-img {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.last-four-img {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 10px;
+
+
+}
+
+.orange {
+    display: flex;
+    align-items: center;
+    height: 61px;
+    width: 188px;
+
+}
+
+.orange:hover {
+    border: 1px solid rgb(224, 13, 231);
+    border-radius: 24px;
+    color: blueviolet;
+}
+footer{
+    height: 600px;
+    background-color: rgb(22, 22, 22);
+}
+.logo-info{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    align-items: center;
+}
+.logo-name-right{
+    color: rgb(255, 39, 201);
+    font-size: 30px;
 }
