@@ -6,6 +6,52 @@
     padding: 0;
 }
 
+header {
+    height: 90px;
+    background-color: antiquewhite;
+    color: rgb(8, 8, 8);
+}
+
+.logo {
+    display: flex;
+    margin-top: 25px;
+    align-items: center;
+
+}
+.logo-name{
+    margin-left: 10px;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+nav ul {
+    display: flex;
+    position: relative;
+    left: 213px;
+
+
+}
+
+nav ul li {
+    list-style: none;
+    margin-left: 20px;
+    margin-top: 38px;
+
+}
+
+.youtube-tiktok {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
 .container {
     display: flex;
     justify-content: space-around;
@@ -140,13 +186,10 @@
     width: 202px;
 }
 
-/* .games-feature-list{
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-} */
+
 .first-five-img {
     display: flex;
-    /* align-items: center; */
+  
 }
 
 .Adventure {
@@ -182,69 +225,84 @@
     border-radius: 24px;
     color: blueviolet;
 }
-footer{
+
+footer {
     margin-top: 70px;
     height: 500px;
     background-color: rgb(22, 22, 22);
 }
-.logo-info{
+
+.logo-info {
     display: flex;
     justify-content: center;
     padding-top: 100px;
     align-items: center;
 }
-.footer-logo-name{
+
+.footer-logo-name {
     color: rgb(233, 233, 233);
-    font-size: 30px;
+    font-size: 2rem;
     font-family: 'Poppins', sans-serif;
+    margin-left: 10px;
 }
-.g-color{
+
+.g-color {
     color: rgb(230, 69, 216);
 }
-.our-info ul{
+
+.our-info ul {
     margin-top: 50px;
-  display: flex;
-  justify-content: center;
-  
+    display: flex;
+    justify-content: center;
+
 }
-.our-info ul li{
+
+.our-info ul li {
     list-style: none;
     color: white;
     margin-left: 50px;
 }
-.social-media-logo{
+
+.social-media-logo {
     display: flex;
     justify-content: center;
-  
+
     margin-top: 20px;
     align-items: center;
 
 }
-.facebook{
+
+.facebook {
     margin: 0 20px;
 }
-.twit{
+
+.twit {
     margin: 0 20px;
 }
-.linkedin{
+
+.linkedin {
     margin: 0 20px;
 }
-.rules-regulation ul{
+
+.rules-regulation ul {
     display: flex;
     justify-content: center;
-    
-    
+
+
 }
-.rules-regulation ul li{
+
+.rules-regulation ul li {
     list-style: none;
     margin-left: 35px;
     margin-top: 25px;
 }
-.rules-regulation ul li a{
+
+.rules-regulation ul li a {
     text-decoration: none;
     color: white;
 }
-.footer-copyright{
+
+.footer-copyright {
     text-align: center;
     color: rgb(119, 111, 111);
     margin-top: 25px;
