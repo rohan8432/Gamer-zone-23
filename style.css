@@ -8,7 +8,7 @@
 
 header {
     height: 90px;
-    background-color: antiquewhite;
+
     color: rgb(8, 8, 8);
 }
 
@@ -129,7 +129,7 @@ nav ul li {
 }
 
 .funny-part-title {
-    font-size: 35px;
+    font-size: 2rem;
     font-family: 'Poppins', sans-serif;
     margin-top: 45px;
 }
@@ -142,14 +142,14 @@ nav ul li {
     font-size: 10px;
 }
 
-.video-list {
+.games-video-type {
     display: flex;
     justify-content: center;
     margin-top: 30px;
 
 }
 
-.video-list img {
+.games-video-type img {
     height: 263px;
     width: 245px;
     margin-left: 15px;
@@ -186,24 +186,24 @@ nav ul li {
     margin-top: 215px;
 }
 
-.fifth-img img {
+.thumbnail-one img {
     width: 500px;
     height: 526px;
 }
 
-.sixth-img {
+.thumbnail-two {
     position: relative;
     bottom: 138px;
     right: 244px;
 }
 
-.sixth-img img {
+.thumbnail-two img {
     height: 200px;
     width: 202px;
 }
 
 
-.first-five-img {
+.feature-list-one {
     display: flex;
 
 }
@@ -212,14 +212,14 @@ nav ul li {
     text-align: center;
 }
 
-.first-five-img {
+.feature-list-one {
     display: flex;
     justify-content: center;
     gap: 30px;
 
 }
 
-.last-four-img {
+.feature-list-two {
     display: flex;
     justify-content: center;
     gap: 30px;
@@ -322,4 +322,52 @@ footer {
     text-align: center;
     color: rgb(119, 111, 111);
     margin-top: 25px;
+}
+
+@media screen and (max-width:576px) {
+
+
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav ul {
+        display: flex;
+        position: relative;
+        left: 174px;
+    }
+
+    .logo {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+    }
+
+    .youtube-tiktok {
+        position: relative;
+
+        left: 190px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 172px;
+    }
+
+    .games-video-type {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+
+    }
+
+    .games-video-type img {
+        height: 380px;
+        width: 341px;
+
+    }
 }
