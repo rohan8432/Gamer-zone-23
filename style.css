@@ -156,6 +156,11 @@ nav ul li {
 
 }
 
+.video-description {
+    font-size: 13px;
+    text-align: center;
+}
+
 .play-button {
     height: 50px;
     width: 50px;
@@ -360,14 +365,40 @@ footer {
     .games-video-type {
         display: flex;
         flex-direction: column;
+        gap: 30px;
         align-items: center;
-        margin-top: 30px;
+        margin-top: 50px;
 
     }
 
     .games-video-type img {
         height: 380px;
         width: 341px;
+    }
 
+    .playing-games-info {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .game-play-info {
+        margin-top: 64px;
+    }
+
+    .thumbnail-one img {
+        width: 336px;
+        height: 360px;
+    }
+
+    .thumbnail-two {
+        position: relative;
+        bottom: 117px;
+        right: 157px;
+    }
+
+    .thumbnail-two img {
+        height: 150px;
+        width: 136px;
     }
 }
