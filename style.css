@@ -18,7 +18,8 @@ header {
     align-items: center;
 
 }
-.logo-name{
+
+.logo-name {
     margin-left: 10px;
     font-size: 2rem;
     font-family: 'Poppins', sans-serif;
@@ -43,6 +44,7 @@ nav ul li {
     list-style: none;
     margin-left: 20px;
     margin-top: 38px;
+    font-family: 'Poppins', sans-serif;
 
 }
 
@@ -50,6 +52,20 @@ nav ul li {
     display: flex;
     align-items: center;
     margin-top: 25px;
+    background-color: white;
+    width: 158px;
+    height: 33px;
+    padding: 0 28px;
+    border: 1px solid white;
+    border-radius: 8px;
+    position: relative;
+    top: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.youtube-tiktok img {
+    height: 25px;
+    width: 27px;
 }
 
 .container {
@@ -189,7 +205,7 @@ nav ul li {
 
 .first-five-img {
     display: flex;
-  
+
 }
 
 .Adventure {
